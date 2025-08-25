@@ -1,3 +1,43 @@
-h1{
+h1, h2{
+    text-align: center;
+    margin: 10px;
+    display: block;
+    background-color: rgb(255, 217, 0);
     
+}
+
+h1{
+    padding: 20px;
+    font-size: 36px;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+p{
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;   
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav li {
+  display: inline;   
+  margin: 0 15px;    
+}
+
+nav a {
+  text-decoration: none;  
+  color: rgb(0, 0, 0);           
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffdd57;
 }
