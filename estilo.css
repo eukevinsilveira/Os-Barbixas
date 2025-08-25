@@ -33,7 +33,7 @@ h2 {
   margin-bottom: 0;
 }
 
-h3{
+h3 {
   font-size: 22px;
   color: #222;
   margin-bottom: 15px;
@@ -73,10 +73,11 @@ nav a:hover {
   padding: 40px 50px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-p, li {
+p,
+li {
   font-size: 18px;
   line-height: 2;
   color: #333;
@@ -92,15 +93,23 @@ footer {
   color: #fff;
   font-size: 14px;
 }
-ul{
-  padding:0;
-list-style-type: none;
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
-img{
+img {
   display: block;
   margin: 0 auto 30px;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+}
+.videos{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
